@@ -1,0 +1,24 @@
+[general]
+name=Search and Replace
+qgisMinimumVersion=3.0
+description=Find and replace text across vector layer attributes, with regex, multi-field, and batch pair support.
+version=0.1
+author=Pavel Diptan
+email=pdiptan@gmail.com
+about=A dockable panel for finding and replacing text values in vector layer attributes.
+
+    Features:
+    - Target multiple fields at once
+    - Run multiple search/replace pairs in a single pass
+    - Optional regular expression (regex) support with capture group substitution
+    - Case-insensitive matching
+    - Preview changes before applying them
+    - Edits are staged — review in the attribute table and save when ready
+
+tracker=https://github.com/ZedeN1/SearchAndReplace/issues
+repository=https://github.com/ZedeN1/SearchAndReplace
+homepage=https://github.com/ZedeN1/SearchAndReplace
+category=Vector
+icon=icon.png
+tags=search,replace,attributes,field,edit,regex,batch
+qgisMaximumVersion=4.99
